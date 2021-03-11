@@ -63,7 +63,7 @@ int main() {
         printf("CHANGED LOSE : %d / ", lose_c_cnt);
         printf("*CHANGED AVG : %04f\n ", win_c_avgs);
 
-        if (win_cnt+lose_cnt >= 50000)
+        if (win_cnt+lose_cnt >= 500000)
             break;
     };
 
